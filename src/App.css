@@ -1,0 +1,23 @@
+* {
+  list-style: none;   
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: Black;
+}
+
+body {
+  background: rgb(50,81,102);
+  background: linear-gradient(140deg, rgba(251,79,4,1) 0%, rgba(216,255,93,1) 100%);  
+}
