@@ -1,6 +1,33 @@
 const dates = {
-  '20/7/2023': 'New Year',
-  '21/7/2023': 'Cumpleaños de Eneas'
+  '1/1/2023': 'Año Nuevo',
+  '20/2/2023': 'Carnval',
+  '21/2/2023': 'Carnval',
+  '24/3/2023': 'Día Nacional de la Memoria por la Verdad y la Justicia',
+  '2/4/2023': 'Día del Veterano y de los Caídos en la Guerra de Malvinas',
+  '6/4/2023': 'Jueves Santo Festividad Cristiana',
+  '7/4/2023': 'Viernes Santo Festividad Cristiana',
+  '12/4/2023': 'Pascua Judía',
+  '13/4/2023': 'Pascua Judía',
+  '21/4/2023': 'Fiesta de la Ruptura del Ayuno del Sagrado Mes de Ramadán',
+  '24/4/2023': 'Día de acción por la tolerancia y el respeto entre los pueblos',
+  '1/5/2023': 'Día del Trabajador',
+  '25/5/2023': 'Día de la Revolución de Mayo',
+  '26/5/2023': 'Feriado con fines turísticos',
+  '17/6/2023': 'Paso a la Inmortalidad del Gral. Don Martín Miguel de Güemes',
+  '19/6/2023': 'Feriado con fines turísticos',
+  '20/6/2023': 'Paso a la Inmortalidad del Gral. Manuel Belgrano',
+  '28/6/2023': 'Fiesta del Sacrificio',
+  '9/7/2023': 'Día de la Independencia',
+  '19/7/2023': 'Año Nuevo Islámico',
+  '21/8/2023': 'Paso a la Inmortalidad del Gral. José de San Martín (17/8)',
+  '16/9/2023': 'Año Nuevo Judío',
+  '17/9/2023': 'Año Nuevo Judío',
+  '25/9/2023': 'Día del Perdón',
+  '13/10/2023': 'Feriado con fines turísticos',
+  '16/10/2023': 'Día del Respeto a la Diversidad Cultural (12/10)',
+  '21/11/2023': 'Día de la Soberanía Nacional',
+  '8/12/2023': 'Inmaculada Concepción de María',
+  '25/12/2023': 'Navidad'
 }
 
 export default dates

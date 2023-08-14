@@ -1,18 +1,13 @@
 import { useEffect, useState } from 'react'
 import './Calendar.css'
+import dates from '../../Data/calendar.js'
 
 const weekdays = ['DO', 'LU', 'MA', 'MI', 'JU', 'VI', 'SA']
 const monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
 
-const datesFestives = {
-  '20/7/2023': 'New Year',
-  '21/7/2023': 'Cumpleaños de Eneas',
-  '21/8/2023': 'Paso a la Inmortalidad del Gral. José de San Martín'
-}
-
 const isDateFestive = (year, month, day) => {
   const dateKey = `${day}/${month + 1}/${year}` // Note: month is zero-indexed in JS Date
-  return datesFestives[dateKey] !== undefined
+  return dates[dateKey] !== undefined
 }
 
 const Calendar = () => {
@@ -29,6 +24,7 @@ const Calendar = () => {
 
   // useEffect para obtener el primer día de la semana del mes
   useEffect(() => {
+    console.log(dates)
     const firstDayOfMonth = new Date(selectedYeard, selectedMonth, 1)
     const weekday = firstDayOfMonth.getDay()
     setInitialWeekdayOfMonth(weekday)
@@ -62,12 +58,12 @@ const Calendar = () => {
     <div id='calendar'>
       <div className="calendarNotes">
         <h2>Nota del día:</h2>
-        {/* verificar si el dia selecionado está en datesFestives. Sí esta, agregar la festividad */}
-        {datesFestives[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`] !== undefined ? <h3>{datesFestives[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`]}</h3> : <h3>Es día hábil</h3>}
+        {/* verificar si el dia selecionado está en dates. Sí esta, agregar la festividad */}
+        {dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`] !== undefined ? <h3>{dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`]}</h3> : <h3>Es día hábil</h3>}
       </div>
       <div className='calendarTitle'>
         <h1>Bienvenido</h1>
-        {datesFestives[`${initialDay}/${initialMonth + 1}/${initialYear}`] !== undefined ? <h3>Hoy {today.toLocaleDateString()}: se conmemora {datesFestives[`${initialDay}/${initialMonth + 1}/${initialYear}`]}</h3> : <h3>Hoy {today.toLocaleDateString()}, es día hábil</h3>}
+        {dates[`${initialDay}/${initialMonth + 1}/${initialYear}`] !== undefined ? <h3>Hoy {today.toLocaleDateString()}: se conmemora {dates[`${initialDay}/${initialMonth + 1}/${initialYear}`]}</h3> : <h3>Hoy {today.toLocaleDateString()}, es día hábil</h3>}
       </div>
       <div className='calendarHeader'>
         <div className="dateControler">
