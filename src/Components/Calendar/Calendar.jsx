@@ -38,18 +38,22 @@ const Calendar = () => {
 
   const nextMonth = () => {
     if (selectedMonth === 11) {
+      setSelectedDay(null)
       setSelectedMonth(0)
       setSelectedYeard(selectedYeard + 1)
     } else {
+      setSelectedDay(null)
       setSelectedMonth(selectedMonth + 1)
     }
   }
 
   const prevMonth = () => {
     if (selectedMonth === 0) {
+      setSelectedDay(null)
       setSelectedMonth(11)
       setSelectedYeard(selectedYeard - 1)
     } else {
+      setSelectedDay(null)
       setSelectedMonth(selectedMonth - 1)
     }
   }
