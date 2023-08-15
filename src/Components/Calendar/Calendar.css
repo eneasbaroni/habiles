@@ -85,6 +85,24 @@
   padding: 0 0.5rem;
 }
 
+#calendar .calendarHeader .filterContainer {  
+  width: auto;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  color: white;    
+}
+
+#calendar .calendarHeader .filterContainer .filterSelected{  
+  border: solid 1px rgba(255, 255, 255, 0.3); 
+  padding: 0.5rem 1rem;  
+  border-radius: 10rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3); 
+}
+
+
 #calendar .calendarDays {
   grid-column: 4 / 13;
   display: grid;
@@ -152,6 +170,22 @@
   color: white;
 }
 
+
+#calendar .calendarGrill .Justicia { 
+  background-color: rgb(240, 80, 74);    
+  color: white;
+}
+
+#calendar .calendarGrill .Federal { 
+  background-color: rgb(221, 97, 14);    
+  color: white;
+}
+
+#calendar .calendarGrill .Administrativo { 
+  background-color: rgb(255, 136, 0);    
+  color: white;
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
 
@@ -189,6 +223,10 @@
     border-radius: 25px;   
   }
   
+
+  #calendar .calendarDays div { 
+    margin-top: 1.5rem;   
+  }
 
   #calendar .calendarDays div { 
     font-size: 0.8rem;   
