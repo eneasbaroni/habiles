@@ -7,7 +7,7 @@ const weekdays = ['DO', 'LU', 'MA', 'MI', 'JU', 'VI', 'SA']
 const monthNames = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
 
 const isDateFestive = (year, month, day) => {
-  const dateKey = `${day}/${month + 1}/${year}` // Note: month is zero-indexed in JS Date
+  const dateKey = `${day}/${month + 1}/${year}` // Note: month is zero-indexed in JS Datee
   return dates[dateKey] !== undefined
 }
 
