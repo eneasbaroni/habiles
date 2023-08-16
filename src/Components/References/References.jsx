@@ -5,15 +5,15 @@ const References = () => {
     <div id='references'>
       <div className="referenceGroup">
         <div className="circleJusticia"></div>
-        <p className="referenceText">Feriado decretado por la Justicia de Córdoba Provincial</p>
+        <p className="referenceText">Día inhábil para la justicia provincial de Córdoba</p>
       </div>
       <div className="referenceGroup">
         <div className="circleFederal"></div>
-        <p className="referenceText">Feriado Federal por la Justicia de Córdoba Provincial</p>
+        <p className="referenceText">Día inhábil para la justicia federal de la provincia de Córdoba</p>
       </div>
       <div className="referenceGroup">
         <div className="circleAdministrativo"></div>
-        <p className="referenceText">Feriado Administrativo por la Justicia de Córdoba Provincial</p>
+        <p className="referenceText">Día inhábil administrativo para la provincia de Córdoba</p>
       </div>
     </div>
   )
