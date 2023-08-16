@@ -72,7 +72,30 @@ const dates = {
   '16/11/2023': { type: 'Justicia', reason: 'Día del Empleado Judicial' },
   '20/11/2023': { type: 'Justicia', reason: 'Día de la Soberanía Nacional' },
   '8/12/2023': { type: 'Justicia', reason: 'Inmaculada Concepción de María' },
-  '25/12/2023': { type: 'Justicia', reason: 'Navidad' }
+  '25/12/2023': { type: 'Justicia', reason: 'Navidad' },
+  '1/1/2024': { type: 'Justicia', reason: 'Año Nuevo' },
+  '2/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '3/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '4/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '5/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '8/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '9/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '10/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '11/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '12/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '15/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '16/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '17/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '18/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '19/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '22/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '23/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '24/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '25/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '26/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '29/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '30/1/2024': { type: 'Justicia', reason: 'Feria de Enero' },
+  '31/1/2024': { type: 'Justicia', reason: 'Feria de Enero' }
 }
 
 export default dates
