@@ -32,15 +32,15 @@
 }
 
 #references .circleJusticia {  
-  background-color: rgb(81, 245, 72);   
+  background-color: #da305a;   
 }
 
 #references .circleFederal {  
-  background-color: rgb(48, 189, 182);   
+  background-color: #f34739;   
 }
 
 #references .circleAdministrativo {  
-  background-color: rgb(215, 218, 29);   
+  background-color: #ff6e27;  
 }
 
 @media screen and (max-width: 768px) {

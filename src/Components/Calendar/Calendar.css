@@ -40,8 +40,13 @@
 }
 
 #calendar .calendarTitle h1 {
-  padding: 0 0 1rem;
+  padding: 0;
   font-size: 2rem;    
+}
+
+#calendar .calendarTitle p {
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;    
 }
 
 #calendar .calendarTitle h3 {    
@@ -161,28 +166,28 @@
 }
 
 #calendar .calendarGrill .selectedDay { 
-  background-color: rgb(180, 209, 15) !important;  
+  background-color: #79b36b !important;  
   color: white;  
 }
 
 #calendar .calendarGrill .festiveDay { 
-  background-color: rgb(255, 136, 0);    
+  background-color: #fab243;    
   color: white;
 }
 
 
 #calendar .calendarGrill .Justicia { 
-  background-color: rgb(81, 245, 72);    
+  background-color: #da305a;
   color: white;
 }
 
 #calendar .calendarGrill .Federal { 
-  background-color: rgb(48, 189, 182);    
+  background-color: #f34739; 
   color: white;
 }
 
 #calendar .calendarGrill .Administrativo { 
-  background-color: rgb(215, 218, 29);    
+  background-color: #ff6e27;
   color: white;
 }
 
@@ -202,6 +207,12 @@
   #calendar .calendarTitle h1 {
     text-align: center;
     width: 100%;    
+  }
+  
+  #calendar .calendarTitle p {
+    width: 100%;    
+    text-align: center;    
+    margin-bottom: 0.7rem;    
   }
 
   #calendar .calendarTitle h3 {  
