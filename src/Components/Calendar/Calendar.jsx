@@ -78,7 +78,7 @@ const Calendar = () => {
         {dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`] !== undefined ? <h3>{dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`].reason}</h3> : <h3>Es día hábil</h3>}
       </div>
       <div className='calendarTitle'>
-        <h1>Días Inhábiles</h1>
+        <h1>Agenda</h1>
         <p>Jurisdicción Villa María</p>
         {dates[`${initialDay}/${initialMonth + 1}/${initialYear}`] !== undefined ? <h3>Hoy {today.toLocaleDateString()}: se conmemora {dates[`${initialDay}/${initialMonth + 1}/${initialYear}`].reason}</h3> : <h3>Hoy {today.toLocaleDateString()}, es día hábil</h3>}
       </div>
