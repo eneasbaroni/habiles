@@ -73,7 +73,7 @@ const Calendar = () => {
   return (
     <div id='calendar'>
       <div className="calendarNotes">
-        <h2>Nota del día:</h2>
+        {/* <h2>Nota del día:</h2> */}
         {/* verificar si el dia selecionado está en dates. Sí esta, agregar la festividad */}
         {dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`] !== undefined ? <h3>{dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`].reason}</h3> : <h3>Día hábil</h3>}
       </div>
