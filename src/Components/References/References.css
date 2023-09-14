@@ -22,8 +22,8 @@
 }
 
 #references .referenceGroup div {
-  height: 30px !important; 
-  width: 30px !important;
+  height: 20px !important; 
+  width: 20px !important;
   border-radius: 50%;  
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@
 }
 
 #references .circleJusticia {  
-  background-color: #da305a;   
+  background-color: #ffc533;   
 }
 
 #references .circleFederal {  
