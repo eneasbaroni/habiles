@@ -1,11 +1,12 @@
 #home {  
   min-height: calc(100vh - 2rem);
-  max-width: 800px;
+  width: 100vw;
+  /* max-width: 800px; */  
   margin: 1rem auto;
   padding: 1rem;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 
@@ -21,4 +22,12 @@
   text-align: center;
   margin: 0;
   padding: 1rem;  
+}
+
+@media screen and (max-width: 1056px) {
+  #home {
+    flex-direction: column;
+    max-width: 800px;
+    width: auto;
+  }
 }

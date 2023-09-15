@@ -1,5 +1,5 @@
 #references {
-  width: 100%;
+  width: 40%;
   margin: 1rem auto;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,14 @@
 
 #references .circleAdministrativo {  
   background-color: #ff6e27;  
+}
+
+@media screen and (max-width: 1056px) {
+  #references {
+    width: 100%;
+    max-width: 100%;
+   /*  margin: auto;  */     
+  }
 }
 
 @media screen and (max-width: 768px) {
