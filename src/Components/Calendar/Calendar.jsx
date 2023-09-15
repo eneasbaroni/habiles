@@ -73,11 +73,13 @@ const Calendar = () => {
   return (
     <div id='calendar'>
       <div className="calendarNotes">
+        <img src="./Images/habiles.png" alt="logo" className='logoPc' />
         {/* <h2>Nota del día:</h2> */}
         {/* verificar si el dia selecionado está en dates. Sí esta, agregar la festividad */}
         {dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`] !== undefined ? <h3>{dates[`${selectedDay}/${selectedMonth + 1}/${selectedYeard}`].reason}</h3> : <h3>Día hábil</h3>}
       </div>
       <div className='calendarTitle'>
+        <img src="./Images/habiles.png" alt="logo" className='logoCel' />
         <h1>Agenda</h1>
         <p>Villa María</p>
         {dates[`${initialDay}/${initialMonth + 1}/${initialYear}`] !== undefined ? <h3>Hoy {today.toLocaleDateString()}: es feriado: {dates[`${initialDay}/${initialMonth + 1}/${initialYear}`].reason}</h3> : <h3>Hoy {today.toLocaleDateString()}, es hábil</h3>}

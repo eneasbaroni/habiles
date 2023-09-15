@@ -27,6 +27,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+
+   & .logoPc {
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      top: 30px;
+   }
 }
 
 #calendar .calendarTitle {
@@ -38,6 +46,11 @@
   justify-content: space-between;  
   color: white;  
   padding: 1rem;  
+  position: relative;
+
+  & .logoCel {
+    display: none;
+  }
 }
 
 #calendar .calendarTitle h1 {
@@ -206,10 +219,29 @@
     grid-column: 1 / 13;    
     grid-row: 6 / 7; 
     border-radius: 0 0 2rem 2rem;
+
+    & .logoPc {
+      display: none;
+   }
   }
 
   #calendar .calendarTitle, #calendar .calendarHeader, #calendar .calendarDays, #calendar .calendarGrill {
     grid-column: 1 / 13;    
+  }
+
+  #calendar .calendarTitle {
+    text-align: center;
+    width: 100%;    
+
+    & .logoCel {
+      display: block;
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      top: 30px;
+      left: 10%;
+      display: none;
+   }
   }
 
   #calendar .calendarTitle h1 {
