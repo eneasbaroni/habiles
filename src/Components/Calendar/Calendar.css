@@ -31,8 +31,8 @@
 
    & .logoPc {
       position: absolute;
-      height: auto;
-      width: 60px;
+      height: 60px;
+      width: auto;
       top: 30px;
    }
 }
