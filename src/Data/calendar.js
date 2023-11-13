@@ -48,6 +48,7 @@ const dates = {
   '23/8/2023': { type: 'Federal', reason: 'Feriado Federal Inventado' },
   '13/10/2023': { type: 'Justicia', reason: 'Feriado con fines turísticos' },
   '16/10/2023': { type: 'Justicia', reason: 'Día del Respeto a la Diversidad Cultural (12/10)' },
+  '13/11/2023': { type: 'Administrativo', reason: 'Dia del empleado publico provincial' },
   '16/11/2023': { type: 'Justicia', reason: 'Día del Empleado Judicial' },
   '20/11/2023': { type: 'Justicia', reason: 'Día de la Soberanía Nacional' },
   '8/12/2023': { type: 'Justicia', reason: 'Inmaculada Concepción de María' },
