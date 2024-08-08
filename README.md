@@ -1,8 +1,36 @@
-# React + Vite
+# HABILES
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web calendar for institutional use for the management of holidays.
 
-Currently, two official plugins are available:
+## Getting started 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Fork and clone the repository
+
+2. Install NPM packages
+
+   ```
+   npm install
+   ```   
+
+3. Deploy the project 
+
+   ```
+   npm run dev
+   ```
+
+    The project will be available at http://localhost:5173
+
+
+## Built with 🛠️ 
+
+* React JS and Vite for Frontend
+
+## Author
+
+Eneas Baroni
+
+
+### License
+
+Copyright © 2024 Eneas Baroni
+All rights reserved.
